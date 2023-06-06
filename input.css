@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   .bg{
+    background: #333;
+   }
+   .img{
+    background: url(/img/background.png);
+   }
+   .project{
+      margin-left: 38%;
+   }
+   .icon:hover{
+   font-size: 25px;
+   }
+    
+}
