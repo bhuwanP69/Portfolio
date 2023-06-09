@@ -5,15 +5,21 @@
 @layer base{
    .bg{
     background: #333;
+    height: 800px;
    }
    .img{
     background: url(/img/background.png);
    }
+  
    .project{
       margin-left: 38%;
+   }
+   @media(max-width:800px){
+      .project{
+         margin-left: 8%;
+      }
    }
    .icon:hover{
    font-size: 25px;
    }
-    
 }
